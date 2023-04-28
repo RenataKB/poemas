@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #2274a5;
+}
+
+.container h2.main {
+    font-size: 2rem;
+    border: 10px;
+    color: #b10f2e;
+    font-weight: bold;
+}
+
+.container h2.sub {
+    font-size: 2rem;
+    border: 10px;
+    color: #e7eb90;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 1.25rem;
+    padding: 10px;
+    color: #e7eb90;
+}
+
+.container i {
+    font-size: 6rem;
+    padding: 10px;
+    color: #b10f2e
+}
+
+.container article {
+    text-align: center;
+    padding: 20px;
+}

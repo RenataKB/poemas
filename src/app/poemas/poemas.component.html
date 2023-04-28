@@ -1,0 +1,13 @@
+<section class="poem-list">
+    <div class="poem-list_card" *ngFor="let poema of poemas">
+        <a routerLink="/poemas/{{poema.id}}" class="poem-list_link">
+            <img src="" alt="">
+            <h2 class="poem-item_title">
+                {{ poema.titulo }}
+            </h2>
+            <h2 class="poem-item_author">
+                {{ poema.autor }}
+            </h2>
+        </a>
+    </div>
+</section>
